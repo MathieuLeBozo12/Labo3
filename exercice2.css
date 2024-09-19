@@ -1,0 +1,42 @@
+body{
+    background-image: url(image/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+table,td,th{
+    border: 3px solid black;
+    border-collapse: collapse;
+
+}
+table{
+    margin: auto;
+    width: 48%;
+}
+
+tr:nth-child(odd){
+color: white;
+background-color: transparent;
+}
+
+tr:nth-child(even){
+    color: black;
+    background-color: blueviolet;
+}
+
+tr:nth-child(9){
+    background-color: black;
+}
+
+:nth-child(1){
+    text-align: center;
+}

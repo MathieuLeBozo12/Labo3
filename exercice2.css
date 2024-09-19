@@ -21,6 +21,7 @@ table,td,th{
 table{
     margin: auto;
     width: 48%;
+    height: 400px;
 }
 
 tr:nth-child(odd){
